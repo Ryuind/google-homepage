@@ -1,0 +1,199 @@
+/* Richard's Google */
+
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+	font-family: arial, sans-serif;
+	font-size: small;
+
+}
+
+
+#container {
+	width: 482px;
+	margin: 100px auto 0px;
+	text-align: center;
+}
+h1#logo {
+	width: 272px;
+	height: 92px;
+	background: url('google.png') top left no-repeat;
+	background-size: 100%;
+	text-indent: -9999px;
+	margin: 200 auto 0 auto;
+}
+input[type="search"] {
+ 	width: 582px;
+	height: 44;
+	padding: 0 0 0 50;
+	margin: 25px 0 18px -50;
+	border-radius: 24px;
+	border: 1px solid lightgray;
+	font-size: 16px;
+}
+input[type="search"]:hover {
+	border: 1px solid white;
+	box-shadow:  .4em 0 1.4em lightgray;
+}
+
+input[type="submit"]{
+	width: 132px;
+	height: 36px;
+	margin: 16px 16px 16px -7px;
+	background: whitesmoke;
+	border: 0;
+	border-radius: 4px;
+	color: #5F6368;
+
+
+}
+input[type="submit"]:hover{
+	border: 1px solid gray;
+	color: black;
+}
+
+small {
+	display: block;
+	margin: 10px 0 0;
+	font-size: 13px;
+
+}
+
+a:link, a:visited {
+	color: blue;
+}
+#container2{
+	width: 482px;
+	margin: 100px auto 0px;
+	text-align: center;
+}
+
+
+h2#logo2 {
+	position: fixed;
+	position: absolute;
+	border: 1px solid transparent;
+	width: 22px;
+	height: 32px;
+	background: url('magglass.png') left no-repeat;
+	background-size: 100%;
+	text-indent: -9999px;
+	margin: -255 0 0 -33;
+
+}
+
+#sign {
+	width: 482px;
+	margin: 100px auto 0px;
+	text-align: center;
+
+}
+
+#sign input[type="submit"] {
+	position: fixed;
+	width: 70px;
+	height: 30px;
+	margin: 16px;
+	background: #4387fd;
+	border: 0;
+	border-radius: 2px;
+	color: white;
+	margin: -183 0 0 792;
+	font-weight: bold;
+	font-size: 13;
+
+}
+
+
+nav#header {
+}
+nav#header ul {
+	position: fixed;
+	float: right;
+}
+nav#header ul li {
+	display: inline-block;
+	list-style: none; 
+	
+}
+nav#header ul li.mail{
+	position: fixed;
+	margin: -175px 0px 0px 1525px;
+	color: black;
+
+}
+
+nav#header ul li.image{
+	position: fixed;
+	padding: 0 0 0 -5;
+	margin: -175px 0px 0px 1570px;
+}
+nav#app ul {
+	position: fixed;
+	list-style: none; 
+	margin: -185 0 0 1640;
+	padding: 0px 0px 0px 0px;
+	float: right;
+}
+
+
+
+
+
+nav#header ul li a:link,
+nav#header ul li a:visited,
+footer nav ul li a:link,
+footer nav ul li a:visited{
+	color: #555;
+	text-decoration: none;
+	padding: 10px;
+}
+
+nav#header ul li a:hover,
+footer nav ul li a:hover {
+
+	text-decoration: underline;
+}
+footer {
+	background: #eee;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	border-top: 1px solid #D8D7D7;
+}
+footer nav {
+	padding: 28 28 28 28;
+}
+
+
+footer nav ul li {
+	display: inline;
+}
+
+footer nav ul.leftlinks {
+	float: left;
+}
+footer nav ul.rightlinks {
+	float: right;
+	text-align: right;
+}
+
+footer nav p {
+	font-size: 15px;
+	color: #838181;
+	background: #eee;
+	margin: -18 -50 16 -50;
+	padding: 0 0 9 50;
+	border-bottom: 1px solid #D8D7D7;
+	
+}
+
+
+
+
+
+
